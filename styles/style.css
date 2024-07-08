@@ -226,7 +226,7 @@ body {
     text-align: center;
 }
 
-.holiday-text-container #holiday-red {
+.holiday-red {
     color: rgb(255, 0, 0);
 }
 
@@ -358,6 +358,21 @@ body {
 
 }
 
+.contact {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    gap: 15px;
+    align-items: center;
+}
+
+.contact i {
+    width: 35px;
+    height: 35px;
+    border: 1px dashed rgba(255, 255, 255, 0.4);
+    padding: 3px;
+}
+
 hr {
     border: 1px solid rgba(255, 255, 255, 0.15);
     width: 1320px;
@@ -376,7 +391,7 @@ hr {
 }
 
 .social-icons i {
-    border: .5px dashed white;
+    border: .5px dashed rgba(255, 255, 255, 0.4);
     padding: 10px;
 }
 
@@ -401,3 +416,163 @@ hr {
     letter-spacing: 0%;
     text-align: left;
 }
+
+.footer-first-section .address {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-first-section .contact {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+/* place section starts here */
+
+.place-container {
+    width: 1320px;
+    height: 482px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.join-btn {
+    width: 167px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.place-text-content p {
+    width: 549px;
+    /* height: 168px; */
+    margin-bottom: 64px;
+    /* border: 1px solid red; */
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+/* coming soon offer style starts here */
+.coming-soon-container{
+    width: 1320px;
+height: 463px;
+/* border: 1px solid #000; */
+margin: 0 auto;
+display: flex;
+}
+
+.coming-soon-text-content{
+    width: 42%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* margin-right: 70px; */
+}
+
+.coming-soon-text-content h4{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+}
+
+.coming-soon-text-content h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+
+.coming-soon-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.coming-soon-image{
+    width: 33.3%;
+    height: 100%;
+    margin: 0 118px;
+    /* border: 1px solid red; */
+}
+
+.coming-soon-image img{
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 30px;
+    /* width: 463px;
+height: 463px; */
+}
+.coming-soon-year{
+    width: 33.34%;
+    height: 100%;
+    /* border: 1px solid violet; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+    /* align-items: center; */
+}
+
+.coming-soon-year h1{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
+.coming-soon-year p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.coming-soon-year img{
+    width: 140px;
+    height: 140px;
+}
+
